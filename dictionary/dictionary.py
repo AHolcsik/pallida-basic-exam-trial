@@ -19,7 +19,12 @@ def add_word(hun_word, eng_word):
 # word form the list 'dictionary'
 
 def translate_to_eng(hun_word):
-    pass
+    for element[0] in dictionary.values():
+        if element[0] == hun_word:
+            print(element[1])
 
+
+
+translate_to_eng(hun_word)
 add_word(hun_word, eng_word)
 print(dictionary)
