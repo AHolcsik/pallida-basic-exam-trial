@@ -5,13 +5,19 @@ dictionary = [
 
 # Implement this method. It should add the given key-value pair to the
 # list 'dictionary'
-hun_word = ""
+hun_word = "kutya"
+eng_word = "dog"
 
-def add_word(hun_word):
-    for element in dictionary:
-        for i in element:
-            hun_word += str([i])
-    return(hun_word)
+# def add_word(hun_word, eng_word):
+#     for element in dictionary:
+#         for i in element:
+#             hun_word += str([i])
+#         for j in element:
+#             eng_word += str([j])
+#     return(hun_word, eng_word)
+
+def add_word(hun_word, eng_word):
+    dictionary[hun_word] = eng_word
 
 # Implement these methods. They should return the translation of the given
 # word form the list 'dictionary'
@@ -24,4 +30,5 @@ def translate_to_hun(eng_word):
 def translate_to_eng(hun_word):
     pass
 
-print(add_word(hun_word))
+add_word(hun_word, eng_word)
+print(dictionary)
