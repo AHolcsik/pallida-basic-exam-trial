@@ -33,4 +33,9 @@ The application is accepted if:
 
 ###  What is the difference between id and class in CSS? [2p]
 #### Your answer:
-[add your answer here]
+Id's and classes are used to identify and target parts in our code, especially in case of special parts (eg header, sidebar, etc). This gives the opportunity to manipulate them separately from the rest of the code, or bigger chunks if same classes are used.
+
+The main difference is that id's are unique: each element can only have one id, and that id can only be used once (eg navigation bar)
+
+Classes on other hand can be used several times, even on multiple elements, or multiple classes can be added to one element.
+This allows the manipulation of several, in other terms not connected elemenets at the same time (eg links, pictures, part of lists, headers, etc)
