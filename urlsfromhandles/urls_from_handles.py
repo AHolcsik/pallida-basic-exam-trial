@@ -10,9 +10,10 @@
 names = ["ghhandle1", "ghhandle2"]
 
 def urls_from_handles(names):
+    list_of_urls = []
     url = "https://github.com/greenfox-academy/"
     for handle in names:
-        url += handle
-    return(url)
+        list_of_urls += [url + handle]
+    return(list_of_urls)
 
 print(urls_from_handles(names))
