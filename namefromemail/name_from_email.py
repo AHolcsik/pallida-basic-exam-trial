@@ -5,4 +5,13 @@
 # example: "elek.viz@exam.com" for this input the output should be: "Viz Elek"
 # accents does not matter
 
+email = str(input("Give me an email address (e.g. elek.viz@exam.com) "))
+
+def name_from_email(email):
+    
+
+
+
+
 print(name_from_email("elek.viz@exam.com"))
+
